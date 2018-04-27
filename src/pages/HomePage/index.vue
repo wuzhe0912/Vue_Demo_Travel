@@ -1,0 +1,13 @@
+<template lang="pug">
+  h1 HomePage
+</template>
+
+<script>
+export default {
+  name: 'HomePage'
+}
+</script>
+
+<style lang="scss" scoped>
+
+</style>
