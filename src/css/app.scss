@@ -1,1 +1,7 @@
 // app global css in SCSS form
+@import "./animation.scss";
+
+.green-bg {
+  background: linear-gradient(to right, #348F50, #56B4D3);
+  background: -webkit-linear-gradient(to right, #348F50, #56B4D3);
+}

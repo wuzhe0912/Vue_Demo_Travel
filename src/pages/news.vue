@@ -2,7 +2,7 @@
   <q-page class="flex column green-bg animation-fade-in">
     <div class="col text-white text-center q-my-lg">
       <div class="text-h5 text-weight-light">
-        整合第三方API和小功能
+        News Page
       </div>
     </div>
   </q-page>
@@ -10,12 +10,10 @@
 
 <script>
 export default {
-  name: 'PageIndex',
+  name: 'News',
 
   data () {
-    return {
-      search: ''
-    }
+    return {}
   }
 }
 </script>

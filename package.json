@@ -1,13 +1,17 @@
 {
-  "name": "new-demo",
+  "name": "quasar-website",
   "version": "0.0.1",
   "description": "A Quasar Framework app",
-  "productName": "Quasar App",
-  "author": "pitt.wu <pitt.wu@hwaotech.com>",
+  "productName": "News App",
+  "author": "pitt.wu <kgb00128@gmail.com>",
   "private": true,
   "scripts": {
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "build:pwa": "quasar build -m pwa",
     "lint": "eslint --ext .js,.vue ./",
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0",
+    "icons": "icongenie generate -i app-icon.png --theme-color 348F50 --skip-trim"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
